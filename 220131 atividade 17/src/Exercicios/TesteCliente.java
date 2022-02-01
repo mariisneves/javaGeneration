@@ -24,6 +24,7 @@ public class TesteCliente {
 		for(Cliente clientes:cli) {
 			clientes.imprimir();
 		}
+		
 	}
 
 }
