@@ -10,4 +10,10 @@ public class Preguica extends Animal{
 		System.out.println("A preguiça "+getNome()+" está subindo a árvore...");
 	}
 
+	@Override
+	public void emitirSom() {
+		System.out.println("A preguiça "+getNome()+" está emitindo som... *"+getSom()+"*");
+		
+	}
+
 }

@@ -1,10 +1,12 @@
 package Exercicio01;
 
-public class Animal {
+public abstract class Animal {
 
 	private String nome;
 	private int idade;
 	private String som;
+	
+	abstract public void emitirSom();
 	
 	public Animal(String nome, int idade, String som) {
 		super();
@@ -37,9 +39,9 @@ public class Animal {
 		this.som = som;
 	}
 	
-	public void emitirSom() {
-		System.out.println("O animal "+nome+" está emitindo som... *"+som+"*");
-	}
+//	public void emitirSom() {
+//		System.out.println("O animal "+nome+" está emitindo som... *"+som+"*");
+//	}
 	
 	public void imprimirInfo() {
 		System.out.println("Nome: "+nome+"\nIdade: "+idade+" ano(s)");
